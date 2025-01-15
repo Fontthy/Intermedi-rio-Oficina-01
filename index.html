@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Saúde Começa com uma Alimentação Saudável CEVIDA</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>A Saúde Começa com uma Alimentação Saudável CEVIDA</h1>
+
+  </header>
+  <main>
+    <section id="healthy-habits">
+      <h2>Bons Hábitos Alimentares</h2>
+      <p>Manter uma alimentação saudável é essencial para uma vida longa e com qualidade. Aqui estão algumas dicas:</p>
+
+      <ul>
+        <li>Coma muitas frutas, verduras e legumes diariamente.</li>
+        <li>Beba bastante água ao longo do seu dia.</li>
+        <li>Evite alimentos ultraprocessados e enlatados.</li>
+        <li>Priorize refeições feitas em casa e balanceadas visando uma vida saudável.</li>
+      </ul>
+    </section>
+
+    <section id="imc-calculator">
+      <h2>Calculadora de IMC</h2>
+        <p>O Índice de Massa Corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal.</p>
+        <p>Para calcular o IMC, basta dividir o peso (em kg) pela altura ao quadrado (em metros).</p>
+      
+      <label for="weight">Peso (kg):</label>
+      <input type="number" id="weight" placeholder="Ex.: 70">
+      <label for="height">Altura (m):</label>
+      <input type="number" id="height" placeholder="Ex.: 1.75">
+
+      <button onclick="calculateIMC()">Calcular</button>
+      
+      <div id="result-container">
+        <p id="result"></p>
+        <img id="imc-image" src="" alt="" style="display: none;">
+        
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Campanha da Prefeitura de Fortaleza - Saúde para Todos!</p>
+
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
